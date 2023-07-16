@@ -1,9 +1,9 @@
 <?php
 
-namespace DeeRig\EnvBar\Tests\Unit;
+namespace LaraKit\EnvBar\Tests\Unit;
 
-use DeeRig\EnvBar\Middleware\InjectBar;
-use DeeRig\EnvBar\Tests\TestCase;
+use LaraKit\EnvBar\Middleware\InjectBar;
+use LaraKit\EnvBar\Tests\TestCase;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Contracts\Translation\Translator;
 use Illuminate\Support\Facades\Artisan;
@@ -40,7 +40,7 @@ class EnvBarServiceProviderTest extends TestCase
     public function it_should_publish_the_configs()
     {
         Artisan::call('vendor:publish', [
-            '--provider' => 'DeeRig\EnvBar\EnvBarServiceProvider',
+            '--provider' => 'LaraKit\EnvBar\EnvBarServiceProvider',
             '--tag'      => 'config',
         ]);
 
@@ -55,7 +55,7 @@ class EnvBarServiceProviderTest extends TestCase
     public function it_should_publish_the_assets()
     {
         Artisan::call('vendor:publish', [
-            '--provider' => 'DeeRig\EnvBar\EnvBarServiceProvider',
+            '--provider' => 'LaraKit\EnvBar\EnvBarServiceProvider',
             '--tag'      => 'assets',
         ]);
 

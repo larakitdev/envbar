@@ -1,6 +1,6 @@
 <?php
 
-namespace DeeRig\EnvBar;
+namespace LaraKit\EnvBar;
 
 use Illuminate\Contracts\View\View;
 

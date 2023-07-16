@@ -1,9 +1,9 @@
 <?php
 
-namespace DeeRig\EnvBar\Middleware;
+namespace LaraKit\EnvBar\Middleware;
 
 use Closure;
-use DeeRig\EnvBar\Renderer;
+use LaraKit\EnvBar\Renderer;
 
 class InjectBar
 {

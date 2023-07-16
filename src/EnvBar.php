@@ -1,6 +1,6 @@
 <?php
 
-namespace DeeRig\EnvBar;
+namespace LaraKit\EnvBar;
 
 use Exception;
 use Illuminate\Support\Facades\Cache;

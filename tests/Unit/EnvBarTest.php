@@ -1,9 +1,9 @@
 <?php
 
-namespace DeeRig\EnvBar\Tests\Unit;
+namespace LaraKit\EnvBar\Tests\Unit;
 
-use DeeRig\EnvBar\EnvBar;
-use DeeRig\EnvBar\Tests\TestCase;
+use LaraKit\EnvBar\EnvBar;
+use LaraKit\EnvBar\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;

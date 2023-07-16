@@ -1,6 +1,6 @@
 <?php
 
-namespace DeeRig\EnvBar\Console;
+namespace LaraKit\EnvBar\Console;
 
 use Illuminate\Console\Command;
 
@@ -13,7 +13,7 @@ class EnvBarPublish extends Command
     public function handle()
     {
         $this->call('vendor:publish', [
-            '--provider' => 'DeeRig\EnvBar\EnvBarServiceProvider',
+            '--provider' => 'LaraKit\EnvBar\EnvBarServiceProvider',
             '--tag'      => 'assets',
         ]);
     }

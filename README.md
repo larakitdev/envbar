@@ -8,14 +8,14 @@ the current branch or release.
 To install this package is very simple, you just need to install it with [composer](https://getcomposer.org/):
 
 ```bash
-composer require --dev deerig/envbar
+composer require --dev larakitdev/envbar
 ```
 
 After installing, you need to publish the assets and the configuration file:
 
 ```bash
-php artisan vendor:publish --provider="DeeRig\EnvBar\EnvBarServiceProvider" --tag="assets"
-php artisan vendor:publish --provider="DeeRig\EnvBar\EnvBarServiceProvider" --tag="config"
+php artisan vendor:publish --provider="LaraKit\EnvBar\EnvBarServiceProvider" --tag="assets"
+php artisan vendor:publish --provider="LaraKit\EnvBar\EnvBarServiceProvider" --tag="config"
 ```
 
 To keep the assets up-to-date and avoid issues in future updates, you may add the `envbar:publish` command to the

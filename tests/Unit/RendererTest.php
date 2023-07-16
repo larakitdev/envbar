@@ -1,9 +1,9 @@
 <?php
 
-namespace DeeRig\EnvBar\Tests\Unit;
+namespace LaraKit\EnvBar\Tests\Unit;
 
-use DeeRig\EnvBar\Renderer;
-use DeeRig\EnvBar\Tests\TestCase;
+use LaraKit\EnvBar\Renderer;
+use LaraKit\EnvBar\Tests\TestCase;
 use Illuminate\Foundation\Testing\Concerns\InteractsWithViews;
 use Illuminate\Support\Facades\File;
 

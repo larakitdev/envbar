@@ -1,8 +1,8 @@
 <?php
 
-namespace DeeRig\EnvBar\Tests;
+namespace LaraKit\EnvBar\Tests;
 
-use DeeRig\EnvBar\EnvBarServiceProvider;
+use LaraKit\EnvBar\EnvBarServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase

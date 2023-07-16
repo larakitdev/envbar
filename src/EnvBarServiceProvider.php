@@ -1,9 +1,9 @@
 <?php
 
-namespace DeeRig\EnvBar;
+namespace LaraKit\EnvBar;
 
-use DeeRig\EnvBar\Console\EnvBarPublish;
-use DeeRig\EnvBar\Middleware\InjectBar;
+use LaraKit\EnvBar\Console\EnvBarPublish;
+use LaraKit\EnvBar\Middleware\InjectBar;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider;
 

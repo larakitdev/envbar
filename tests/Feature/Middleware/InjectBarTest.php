@@ -1,9 +1,9 @@
 <?php
 
-namespace DeeRig\EnvBar\Tests\Feature\Middleware;
+namespace LaraKit\EnvBar\Tests\Feature\Middleware;
 
-use DeeRig\EnvBar\Middleware\InjectBar;
-use DeeRig\EnvBar\Tests\TestCase;
+use LaraKit\EnvBar\Middleware\InjectBar;
+use LaraKit\EnvBar\Tests\TestCase;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 

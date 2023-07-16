@@ -1,29 +1,29 @@
 {
-    "name": "deerig/envbar",
+    "name": "larakitdev/envbar",
     "description": "This package will show on the top of every page a fancy alert with the environment and the current branch information.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "DeeRig\\EnvBar\\": "src"
+            "LaraKit\\EnvBar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DeeRig\\EnvBar\\Tests\\": "tests"
+            "LaraKit\\EnvBar\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DeeRig\\EnvBar\\EnvBarServiceProvider"
+                "LaraKit\\EnvBar\\EnvBarServiceProvider"
             ]
         }
     },
     "authors": [
         {
-            "name": "DeeRig",
-            "email": "contact@deerig.com"
+            "name": "LaraKit",
+            "email": "contact@larakitdev.com"
         }
     ],
     "require": {

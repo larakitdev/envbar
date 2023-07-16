@@ -1,8 +1,8 @@
 <?php
 
-namespace DeeRig\EnvBar\Tests\Feature\Console;
+namespace LaraKit\EnvBar\Tests\Feature\Console;
 
-use DeeRig\EnvBar\Tests\TestCase;
+use LaraKit\EnvBar\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 
 class EnvBarPublishTest extends TestCase

@@ -1,7 +1,7 @@
 {{--<link href="{{ mix('/css/app.css', 'vendor/envbar') }}" rel="stylesheet" />--}}
 
 @php
-    use DeeRig\EnvBar\EnvBar;
+    use LaraKit\EnvBar\EnvBar;
     use Illuminate\Support\Str;
 
     $envName = Str::title(Str::replace(['-', '_'], ' ', config('app.env')));
