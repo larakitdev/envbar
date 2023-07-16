@@ -27,7 +27,9 @@
     @lang('envbar::messages.you-are-in-the')
     <x-envbar::badge :color="$envColor">{{ $envName }}</x-envbar::badge>
     @lang('envbar::messages.environment')
-    <x-envbar::branch class="envbar-w-5 envbar-h-5 envbar-mx-1" :color="$envColor"/>
-    @lang('envbar::messages.the-current-source-is', ['source' => $isRelease ? 'release' : 'branch'])
-    <x-envbar::badge :color="$envColor">{{ $branch }}</x-envbar::badge>
+    @if ($branch)
+        <x-envbar::branch class="envbar-w-5 envbar-h-5 envbar-mx-1" :color="$envColor"/>
+        @lang('envbar::messages.the-current-source-is', ['source' => $isRelease ? 'release' : 'branch'])
+        <x-envbar::badge :color="$envColor">{{ $branch }}</x-envbar::badge>
+    @endif
 </div>
